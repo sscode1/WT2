@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Weekend Tutor</string>
+    <string name="title_activity_list_of_course_tutor">ListOfCourseTutor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="appbar_scrolling_view_behavior" />
+    <string name="email_address">E-mail:</string>
+    <string name="feedback">FEEDBACK:</string>
+    <string name="rating_name">Rating:</string>
+    <string name="email_value">Enter Email Address</string>
+    <string name="feedback_value">Enter Feedback</string>
+    <string name="send_button">SEND</string>
+    <array name="users">
+        <item>Tutor</item>
+        <item>Student</item>
+    </array>
+    <string name="text">YOUR RESPONSE HAS BEEN RECORDED</string>
+    <string name="new_feedback">DONE</string>
+    <string name="name_1">JELWIN RODRIGUES</string>
+    <string name="email_1">EMAIL: jelwin13afc@gmail.com</string>
+    <string name="name_2">SHUSRUTH V</string>
+    <string name="email_2">EMAIL: vsushruth21@gmail.com</string>
+    <string name="name_3">ANKIT JAIN</string>
+    <string name="email_3">EMAIL: anku.171co208@nitk.edu.in</string>
+    <string name="name_4">CHETAN AGARWAL</string>
+    <string name="email_4">EMAIL: chetanag35@gmail.com</string>
+    <string name="name_5">NIKHIL H S</string>
+    <string name="email_5">EMAIL :nkhl4199@gmail.com</string>
+    <string name="name_6">SIDDARTH SINGH</string>
+    <string name="email_6">EMAIL: siddharth12375@gmail.com</string>
+    <string name="nav_name"></string>
+    <string name="nav_email" />
+</resources>
+

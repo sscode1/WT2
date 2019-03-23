@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chetan.wt">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TutorProfileToStudent"></activity>
+        <activity android:name=".CourseViewOnly" />
+        <activity android:name=".ChangeAuthInfoTutor" />
+        <activity android:name=".TutorNotifications" />
+        <activity android:name=".delete_multiple_courses" />
+        <activity android:name=".registerStudent" />
+        <activity android:name=".loginTutor" />
+        <activity android:name=".loginStudent" />
+        <!--
+            activity android:name=".Welcome"
+            android:parentActivityName=".Welcome"/
+        -->
+        <activity android:name=".forgotPassword" />
+        <activity android:name=".Profile" />
+        <activity android:name=".TutorRegistration" />
+        <activity android:name=".EditProfile" />
+        <activity android:name=".StudentCourses" />
+        <activity android:name=".developers" />
+        <activity
+            android:name=".feedback_activity"
+            android:parentActivityName=".ListOfCourseTutor" />
+        <activity
+            android:name=".pop_feedback"
+            android:parentActivityName=".ListOfCourseTutor" />
+        <activity android:name=".MyProfileStudent" />
+        <activity
+            android:name=".ListOfCourseTutor"
+            android:label="@string/title_activity_list_of_course_tutor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EditStudentProfile" />
+        <activity android:name=".CourseView" />
+        <activity android:name=".CourseDetailsTutor" />
+        <activity android:name=".CourseDetails" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CourseList"
+            android:label="CourseList"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SelectCourse" />
+        <activity android:name=".ChangeAuthInfo" />
+    </application>
+
+</manifest>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ListOfCourseTutor"
+    tools:showIn="@layout/app_bar_list_of_course_tutor">
+
+
+    <ListView
+        android:id="@+id/courselist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:cacheColorHint="@color/common_google_signin_btn_text_dark_pressed"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="3dp"
+        android:entries="@color/common_google_signin_btn_text_dark_default"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/newcourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:text="+ Propose a new course"
+        android:background="@drawable/buttonstyle"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/courselist"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:text="Course Lists"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

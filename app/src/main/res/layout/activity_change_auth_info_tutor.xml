@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".ChangeAuthInfoTutor">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/border12"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="0.8"
+            android:background="@android:drawable/ic_menu_revert"
+
+            app:srcCompat="@android:drawable/ic_menu_revert" />
+
+        <TextView
+            android:id="@+id/CouseDetail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:padding="5dp"
+            android:text="Authentication Info"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:srcCompat="@android:drawable/ic_secure" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2"
+        android:id="@+id/scollview">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/semail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:gravity="bottom"
+                android:text="New Email"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:background="@drawable/myborder"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:padding="8dp"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/abc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:gravity="bottom"
+                android:text="Current Password"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cepass"
+                android:layout_width="match_parent"
+                android:password="true"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/myborder"
+                android:padding="8dp"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changeEmail"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:background="@drawable/oval"
+                android:backgroundTint="#ddd"
+                android:layout_margin="5dp"
+                android:text="Change Email" />
+
+            <TextView
+                android:id="@+id/spass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:gravity="bottom"
+                android:text="Current Password"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/cpass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:password="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/myborder"
+                android:padding="8dp"
+                android:inputType="textPersonName"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/npasss"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:gravity="bottom"
+                android:text="New Password"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/npass"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/myborder"
+                android:padding="8dp"
+                android:password="true"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/changePass"
+                android:background="@drawable/oval"
+                android:backgroundTint="#ddd"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:text="Change Password" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
